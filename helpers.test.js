@@ -1,11 +1,9 @@
-
 describe('testing the tip percentage', () => {
     it('shoul return the tip percentage', () => {
         const tip = calculateTipPercent(150, 15)
         expect(tip).toEqual(10)
     })
 })
-
 
 describe('Test the remove button', () => {
 
