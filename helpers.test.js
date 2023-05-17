@@ -18,10 +18,10 @@ describe('Test the remove button', () => {
     it('should append a button', () => {
         let newTr = document.createElement('tr');
 
-    appendDeleteBtn(newTr);
+        appendDeleteBtn(newTr);
 
-    expect(newTr.children.length).toEqual(1);
-    expect(newTr.firstChild.innerText).toEqual('X');
+        expect(newTr.children.length).toEqual(1);
+        expect(newTr.firstChild.innerText).toEqual('X');
     })
     
 })
